@@ -153,11 +153,19 @@ new Vue({
           url: "http://www.communitynetradio.org/christianliferadio",
           favorited: true
         },
+        // {
+        //   name: "Polestar O2 Concept Car and Steam Deck Impressions",
+        //   artist: "Waveform: The MKBHD Podcast",
+        //   cover: "https://res.cloudinary.com/weknow-creators/image/upload/v1646816821/logod_gv6zlt.png",
+        //   source: "https://res.cloudinary.com/weknow-creators/video/upload/v1646816606/VMP6306977812_rx5lbn.mp3",
+        //   url: "https://bit.ly/WaveformMkbhd",
+        //   favorited: true
+        // },
         {
-          name: "Episode 778",
+          name: "Episode 779",
           artist: "CLUBLIFE by Tiesto",
           cover: "https://res.cloudinary.com/weknow-creators/image/upload/v1645256784/logod_zta9kj.jpg",
-          source: "https://stitcher.acast.com/livestitches/6217a8a5eb47990013c48d76/324b699145d35c6193818cd9c7c46c2d.mp3?aid=6217a8a5eb47990013c48d76&chid=94606e07-f6e2-4c6f-9409-0785e70764ef&ci=VQ8eQHFHj-624OuNDVdoVKR1LUfJ0eA3i4UCbv55kVodD4c0LeqElg%3D%3D&pf=rss&range=bytes%3D0-&sv=sphinx%401.80.0&uid=808b900b5511976faf156085d451d384&Expires=1646717914&Signature=F%7EaRQ0pA8AAmQOKPDnb6vYzYS4Ct5VtlptlJRu%7Eb608Dd9mad4gJu4N3mXxeRYKHYqM1hw797MlXiGTLvn5ANjrn47Ok6nKO%7E65c8jx5n9vtLQTZKExJnmp8z2mV2p0k3wdXQUTDXcgz2LssUltdfB4jdOGRA7Bk1g6q%7EIroDeB52y0ij1ayVQ4UIQ9xvttYqobXZCuYuhPtT5Jw6Fu3dpiajC97geXwpo00md2Pq3jFPaJ1uysE9rA7nbfmWtRG2m1OOacXF2BfC-kBuXqwboeUSY3v5CZ73v3S9x9XSASykWAMySCc215orlhWO8p1wZx9K6yIWoYEhrIdSXxcBg__&Key-Pair-Id=APKAJXAFARUOTJQ3BLOQ",
+          source: "https://res.cloudinary.com/weknow-creators/video/upload/v1647067518/ccc9c0ba2be13e3272f0e9fcc9241268.mp3_hqj68d.mp3",
           url: "http://tiesto.com/radio/",
           favorited: true
         }
