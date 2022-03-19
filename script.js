@@ -162,10 +162,10 @@ new Vue({
         //   favorited: true
         // },
         {
-          name: "Episode 779",
+          name: "Episode 780",
           artist: "CLUBLIFE by Tiesto",
           cover: "https://res.cloudinary.com/weknow-creators/image/upload/v1645256784/logod_zta9kj.jpg",
-          source: "https://res.cloudinary.com/weknow-creators/video/upload/v1647067518/ccc9c0ba2be13e3272f0e9fcc9241268.mp3_hqj68d.mp3",
+          source: "https://res.cloudinary.com/weknow-creators/video/upload/v1647679476/6a96f0e4a3a115503298faf5031df931.mp3_qryy98.mp3",
           url: "http://tiesto.com/radio/",
           favorited: true
         }
