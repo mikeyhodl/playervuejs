@@ -73,14 +73,6 @@ new Vue({
          url: "https://virginradio.co.uk/",
          favorited: true
          },
-         // {
-         //  name: "KISS FM UK",
-         //  artist: "planetradio",
-         // cover: "https://res.cloudinary.com/weknow-creators/image/upload/v1648018641/c300_ajuyqg.png",
-         //  source: "https://stream-kiss.planetradio.co.uk/kissnational.aac?direct=true&listenerid=undefined&aw_0_1st.bauer_listenerid=undefined&aw_0_1st.playerid=BMUK_html5&aw_0_1st.skey=1651149881&aw_0_1st.bauer_loggedin=false&aw_0_req.userConsentV2=CPWR94APWR94AAGABCENCHCsAP_AAAAAABQgHANf_X_fb3_D-_59_9t0eY1f9_7_v-0zjgeds-8Nyd_X_L8X_2M7vB36pq4KuR4Eu3LBAQdlHOHcTQmQ6IkVqTPsbk2Mr7NKJ7PEmlMbO2dYGH9_n9XT_ZKY79_____7__-_____77f__-__3_v5_UgEAAACQyAsABQAIYATABHADLgH2AfgBGACOAFLAKuAVsA3gCYgE2ALRAWwAvMBgQDDwGcgM8AZ8MAFADaAHgAWIA6oCPQEnALoAXkA0IBt4iA0AFYAQwAyABlgDZAH4AQAAjABSwCngFXANYAdUA-QCHQEiAJsATsApEBcgDAgGEgMPAZOAzkBnwgAKACQA3gC6AGhAN0CQUwAEAALgAoACoAGQAOQAeACAAGAAMgAaAA8gCGAIoATAAnwBVAFYALAAbwA5gB6AD8AIQAQ0AiACJAEcAJYATQApQBbgDDAGRAMoAywBqgDZAHeAPYAfEA-wD9AIBARcBGACNAEcAJSAUEApYBTwCrgFzAMUAawA2gBuADeAHoAPkAhsBDoCRAExAJlATYAnYBQ4CkQFNALFAWgAtgBcgC7wF5gMCAYMAwkBhoDDwGSAMnAZcAzkBnwDSAGnQNYA1kBt4QBBAA4ADwASAB_AEUAJEAZoA2gBzgEDAIOAT8AoYBogDqgI9ASsAm0BYQC6AF1ALtAXkAxABiwDIQGRgNCAaMA0oBqYDbgG6BoEIAVgAuACGAGQAMsAbIA_ACAAEFAIwAUsAp4BV4C0ALSAawA3gB1QD5AIdARUAkQBNgCdgFIgLkAYEAwkBh4DGAGTgM5AZ4Az4MAGANkAdQBdADIwGhAN0FQGgAKABDACYAFwARwAywB-AEYAI4AUsAq8BaAFpAN4AkEBMQCbAFNgLYAXIAvMBgQDDwGcgM8AZ8A3IUAJAG0APAAgoB1QEegLoAaEA14Bt46DGAAuACgAKgAZAA5AB8AIAAXQAwADIAGgAPAAfQBDAEUAJgAT4AqgCsAFgALgAXwAxABmADeAHMAPQAfgBDQCIAIkARwAlgBMACaAFGAKUAWIAt4BhAGGAMgAZQA0QBsgDvAHtAPsA_QB_gEDgIsAjABHICUgJUAUEAp4BVwCxQFoAWkAuYBdQC8gGKANoAbgA6gB6AENgIdAREAioBF4CQQEiAJUATYAnYBQ4CmgFWALFAWhAtgC2QFwALkAXaAu8BeYDBgGEgMNAYeAxIBjADHgGSAMnAZUAy4BnIDPgGiQNIA0kBpYDTgGsANvHAQgAEQAOAA8AC4AJAAcgA_ADIAGgAP4AigBIgCzAGWAM0AbQA5wB3AEAAILAQcBCACIgE2gJ8An4BSwCoAF6AMCAZkA1gBvADjgHSAOqAeQA-QCEAEewJWAlcBMUCZAJlATaAoUBSACkwFMAKqAV2AsoBagC4oF0AXUAvoBgQDEAGLAMhAZeA0IBowDSgGmgNTAa8A2kBtgDbiEDcABYAFAAMgAuABiAEMAJgAUwAqgBcAC-AGIAMwAbwA9ACOAFiAMIAd8A-wD8AH-ARgAjgBKQCggFDAKeAVeAtAC0gFzAMUAbQA6gB6AEggJEASoAmwBTQCxQFowLYAtoBcAC5AF2gMPAYkAycBnIDPAGfANEAaSA0sBwBABCAAgAH4AaAA_gCRAGWANoAc4A8ACCgE-AKWAWIAzIBvADqgHbAR6Ak4BK4CYgE2gKFAUgApMBdAC8gGBANCAaUA1MBtgDbiUDgABAACwAKAAZAA4AB-AGAAYgA8ACIAEwAKoAXAAvgBiADMAG0AQ0AiACJAEcAKMAUoAtwBhADVAGyAO8AfgBGACOAEnAKeAVeAtAC0gF1AMUAbgA6gB8gEOgIqAReAkQBNgCxQFsALtAXmAw8Bk4DOQGeAM-AaQA1gBt4DgCQBsABwAFwAQgA5ADIAJEAXIAywBqADaAHcAQAAnwBUADMgG8AOqAfYBHoCVgE2gKTAWUAugBiwDSgG5FIIwAC4AKAAqABkADkAHwAggBgAGQANAAeQBDAEUAJgATwApABVACwAF8AMQAZgA5gB-AENAIgAiQBRgClAFiALcAYQAygBogDVAGyAO-AfYB-gEWAIwARwAlIBQQChgFXAK2AXMAvIBtADcAHoAQ6Ai8BIgCTgE2AJ2AUOAsUBbAC4AFyALtAXmAw0Bh4DGAGSAMnAZcAzkBngDPoGkAaTA1gDWQG3lAGYAFwAQgAkAByAD8AKwAZAA2gCOAEiALkAZYA1ABrgDaAHOAO4AeABAACKgEiAJOATaAnwCfgFLALEAXUAxQBvADqgHbAPIAf8BHoCYgEygJtAUgApgBXYC0AF0ALyAX0AwIBiwDRAGlANNgakBqYDXgAA.YAAAAAAAAAAA",
-         //  url: "https://planetradio.co.uk/",
-         //  favorited: true
-         //  },
          {
           name: "Smooth Jazz 247",
           artist: "smoothjazz247",
@@ -201,19 +193,19 @@ new Vue({
           url: "http://www.communitynetradio.org/christianliferadio",
           favorited: true
         },
-        {
-          name: "Piga Mdomo",
-          artist: "Suzziah",
-          cover: "https://res.cloudinary.com/weknow-creators/image/upload/v1651149491/images/artworks-000225157901-vcd960-t500x500_q2uiiu.jpg",
-          source: "https://res.cloudinary.com/weknow-creators/video/upload/v1651149358/aob/Suzziah-Piga-Mdomo_mmtska.mp3",
-          url: "https://mikeowino.live/",
-          favorited: true
-        },
+        // {
+        //   name: "Piga Mdomo",
+        //   artist: "Suzziah",
+        //   cover: "https://res.cloudinary.com/weknow-creators/image/upload/v1651149491/images/artworks-000225157901-vcd960-t500x500_q2uiiu.jpg",
+        //   source: "https://res.cloudinary.com/weknow-creators/video/upload/v1651149358/aob/Suzziah-Piga-Mdomo_mmtska.mp3",
+        //   url: "https://mikeowino.live/",
+        //   favorited: true
+        // },
         {
           name: "Episode 786",
           artist: "CLUBLIFE by Tiesto",
           cover: "https://res.cloudinary.com/weknow-creators/image/upload/v1645256784/logod_zta9kj.jpg",
-          source: "https://res.cloudinary.com/weknow-creators/video/upload/v1651742113/club%20life/6e68edf5e1b06d12ea24fec19611b366.mp3_uyeimj.mp3",
+          source: "https://res.cloudinary.com/weknow-creators/video/upload/v1653724775/club%20life/e168a16951ef7437b95e3b4d22f2ca22.mp3_yq5ukr.mp3",
           url: "http://tiesto.com/radio/",
           favorited: true
         }
