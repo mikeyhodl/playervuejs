@@ -67,7 +67,7 @@
         </div>
         <div v-cloak></div>
       </div>
-      <a href="javascript:window.open('','_self').close();" class="github-btn">
+      <a href="#" onClick="Exit()" class="github-btn">
         Exit App
       </a>
     </div>
@@ -136,6 +136,28 @@
       }
     });
   </script>
+  <script>
+    function Exit() {
+      if(window.confirm('Are you sure?')) {
+  window.alert('Closing window')
+  window.open('', '_self')
+  window.close()
+ }
+ else {
+  alert('Cancelled!')
+ }
+}
+  </script>
+  <!-- <script type="text/javascript">
+    var password = "0000";
+    var x = prompt("passkey "," ");
+    if (x.toLowerCase() == password) {
+     window.location = "#";
+    }
+    else {
+    window.close();
+    }
+    </script> -->
 
 </body>
 </html>
