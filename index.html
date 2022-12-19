@@ -28,6 +28,19 @@
       rel="shortcut icon"
       href="https://res.cloudinary.com/weknow-creators/image/upload/v1645198356/apple-touch-icon_xhm72q.png"
     />
+    <style>
+      /* Light mode styles */
+      body {
+        background-color: white;
+        color: black;
+      }
+
+      /* Dark mode styles */
+      body.dark-mode {
+        background-color: black;
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper" id="app">
@@ -202,7 +215,22 @@
         </symbol>
       </defs>
     </svg>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.7.13/vue.min.js"></script>
-    <script defer src="https://cdn1.owino.xyz/play-owino-xyz/script.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.7.13/vue.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn1.owino.xyz/play-owino-xyz/script.js"
+    ></script>
+    <script>
+      function setDarkMode() {
+        var currentHour = new Date().getHours();
+        if (currentHour >= 18 || currentHour < 6) {
+          document.body.classList.add("dark-mode");
+        }
+      }
+      window.onload = setDarkMode;
+    </script>
   </body>
 </html>
