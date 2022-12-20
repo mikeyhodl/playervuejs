@@ -31,11 +31,11 @@
     <style>
       /* Light mode styles */
       body.light {
-        background: #e0dddd;
+        background: #dfdfdfad;
         color: black;
       }
       .light .player {
-        background: #ffffff;
+        background: #ffffffcf;
       }
       .light .player-controls__item.-xl {
         color: #acb8cc;
@@ -253,6 +253,15 @@
       window.onload = toggleDarkMode;
       // Run the toggleDarkMode function every 5 minutes
       setInterval(toggleDarkMode, 60000);
+    </script>
+    <script>
+      document.addEventListener("keydown", (event) => {
+        if (event.code === "Space") {
+          event.preventDefault();
+          // Toggle the play/pause functionality here
+          this.play();
+        }
+      });
     </script>
   </body>
 </html>
