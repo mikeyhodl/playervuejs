@@ -30,19 +30,31 @@
     />
     <style>
       /* Light mode styles */
-      body {
-        background-color: white;
+      body.light {
+        background: #e0dddd;
         color: black;
+      }
+      .light .player {
+        background: #ffffff;
+      }
+      .light .player-controls__item.-xl {
+        color: #acb8cc;
       }
 
       /* Dark mode styles */
-      body.dark-mode {
-        background-color: black;
+      body.dark {
+        background: #121212;
         color: white;
+      }
+      .dark .player {
+        background: #2a2a2a;
+      }
+      .dark .player-controls__item.-xl {
+        color: #acb8cc;
       }
     </style>
   </head>
-  <body>
+  <body class="light">
     <div class="wrapper" id="app">
       <div class="player">
         <div class="player__top">
@@ -224,13 +236,23 @@
       src="https://cdn1.owino.xyz/play-owino-xyz/script.js"
     ></script>
     <script>
-      function setDarkMode() {
-        var currentHour = new Date().getHours();
-        if (currentHour >= 18 || currentHour < 6) {
-          document.body.classList.add("dark-mode");
+      function toggleDarkMode() {
+        // Get the current time
+        var date = new Date();
+        var hour = date.getHours();
+
+        // If it's evening (after 7pm), set the body class to "dark"
+        if (hour >= 14) {
+          document.body.className = "dark";
+        } else {
+          document.body.className = "light";
         }
       }
-      window.onload = setDarkMode;
+
+      // Run the toggleDarkMode function when the page loads
+      window.onload = toggleDarkMode;
+      // Run the toggleDarkMode function every 5 minutes
+      setInterval(toggleDarkMode, 300000);
     </script>
   </body>
 </html>
