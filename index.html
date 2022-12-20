@@ -242,7 +242,7 @@
         var hour = date.getHours();
 
         // If it's evening (after 7pm), set the body class to "dark"
-        if (hour >= 14) {
+        if (hour >= 17 || hour < 8) {
           document.body.className = "dark";
         } else {
           document.body.className = "light";
@@ -252,7 +252,7 @@
       // Run the toggleDarkMode function when the page loads
       window.onload = toggleDarkMode;
       // Run the toggleDarkMode function every 5 minutes
-      setInterval(toggleDarkMode, 300000);
+      setInterval(toggleDarkMode, 60000);
     </script>
   </body>
 </html>
